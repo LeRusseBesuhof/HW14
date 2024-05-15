@@ -10,9 +10,16 @@
 		3713E4A32BF25209004D7510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713E4A22BF25209004D7510 /* AppDelegate.swift */; };
 		3713E4A52BF25209004D7510 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713E4A42BF25209004D7510 /* SceneDelegate.swift */; };
 		3713E4A72BF25209004D7510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713E4A62BF25209004D7510 /* ViewController.swift */; };
-		3713E4AA2BF25209004D7510 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3713E4A92BF25209004D7510 /* Base */; };
 		3713E4AC2BF2520B004D7510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3713E4AB2BF2520B004D7510 /* Assets.xcassets */; };
 		3713E4AF2BF2520B004D7510 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3713E4AE2BF2520B004D7510 /* Base */; };
+		3713E4B72BF25A5F004D7510 /* AppUIFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713E4B62BF25A5F004D7510 /* AppUIFuncs.swift */; };
+		3713E4BD2BF2629B004D7510 /* TableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713E4BC2BF2629B004D7510 /* TableItem.swift */; };
+		3713E4BF2BF26670004D7510 /* UIImage.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713E4BE2BF26670004D7510 /* UIImage.ext.swift */; };
+		3713E4C12BF38735004D7510 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713E4C02BF38735004D7510 /* TableViewCell.swift */; };
+		3713E4C72BF4E1AE004D7510 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3713E4C62BF4E1AE004D7510 /* Ubuntu-Bold.ttf */; };
+		3713E4C92BF4E1B8004D7510 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3713E4C82BF4E1B8004D7510 /* Ubuntu-Regular.ttf */; };
+		3713E4CB2BF4E242004D7510 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3713E4CA2BF4E242004D7510 /* Ubuntu-Medium.ttf */; };
+		3713E4CD2BF4FA3D004D7510 /* UIFont.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713E4CC2BF4FA3D004D7510 /* UIFont.ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +27,17 @@
 		3713E4A22BF25209004D7510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3713E4A42BF25209004D7510 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3713E4A62BF25209004D7510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3713E4A92BF25209004D7510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3713E4AB2BF2520B004D7510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3713E4AE2BF2520B004D7510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3713E4B02BF2520B004D7510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3713E4B62BF25A5F004D7510 /* AppUIFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUIFuncs.swift; sourceTree = "<group>"; };
+		3713E4BC2BF2629B004D7510 /* TableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableItem.swift; sourceTree = "<group>"; };
+		3713E4BE2BF26670004D7510 /* UIImage.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.ext.swift; sourceTree = "<group>"; };
+		3713E4C02BF38735004D7510 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3713E4C62BF4E1AE004D7510 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Bold.ttf"; path = "../../../../../../Downloads/Ubuntu/Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		3713E4C82BF4E1B8004D7510 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		3713E4CA2BF4E242004D7510 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		3713E4CC2BF4FA3D004D7510 /* UIFont.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.ext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,54 @@
 		3713E4A12BF25209004D7510 /* HW14 */ = {
 			isa = PBXGroup;
 			children = (
+				3713E4C52BF4E167004D7510 /* Font */,
+				3713E4C22BF3873C004D7510 /* Cell */,
+				3713E4BB2BF26292004D7510 /* Model */,
+				3713E4B82BF25A8B004D7510 /* Extensions */,
 				3713E4A22BF25209004D7510 /* AppDelegate.swift */,
 				3713E4A42BF25209004D7510 /* SceneDelegate.swift */,
 				3713E4A62BF25209004D7510 /* ViewController.swift */,
-				3713E4A82BF25209004D7510 /* Main.storyboard */,
+				3713E4B62BF25A5F004D7510 /* AppUIFuncs.swift */,
 				3713E4AB2BF2520B004D7510 /* Assets.xcassets */,
 				3713E4AD2BF2520B004D7510 /* LaunchScreen.storyboard */,
 				3713E4B02BF2520B004D7510 /* Info.plist */,
 			);
 			path = HW14;
+			sourceTree = "<group>";
+		};
+		3713E4B82BF25A8B004D7510 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3713E4BE2BF26670004D7510 /* UIImage.ext.swift */,
+				3713E4CC2BF4FA3D004D7510 /* UIFont.ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3713E4BB2BF26292004D7510 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3713E4BC2BF2629B004D7510 /* TableItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3713E4C22BF3873C004D7510 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3713E4C02BF38735004D7510 /* TableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3713E4C52BF4E167004D7510 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				3713E4C62BF4E1AE004D7510 /* Ubuntu-Bold.ttf */,
+				3713E4C82BF4E1B8004D7510 /* Ubuntu-Regular.ttf */,
+				3713E4CA2BF4E242004D7510 /* Ubuntu-Medium.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +178,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3713E4C92BF4E1B8004D7510 /* Ubuntu-Regular.ttf in Resources */,
+				3713E4CB2BF4E242004D7510 /* Ubuntu-Medium.ttf in Resources */,
 				3713E4AC2BF2520B004D7510 /* Assets.xcassets in Resources */,
 				3713E4AF2BF2520B004D7510 /* Base in Resources */,
-				3713E4AA2BF25209004D7510 /* Base in Resources */,
+				3713E4C72BF4E1AE004D7510 /* Ubuntu-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +193,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3713E4BF2BF26670004D7510 /* UIImage.ext.swift in Sources */,
 				3713E4A72BF25209004D7510 /* ViewController.swift in Sources */,
+				3713E4B72BF25A5F004D7510 /* AppUIFuncs.swift in Sources */,
+				3713E4BD2BF2629B004D7510 /* TableItem.swift in Sources */,
 				3713E4A32BF25209004D7510 /* AppDelegate.swift in Sources */,
+				3713E4C12BF38735004D7510 /* TableViewCell.swift in Sources */,
 				3713E4A52BF25209004D7510 /* SceneDelegate.swift in Sources */,
+				3713E4CD2BF4FA3D004D7510 /* UIFont.ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3713E4A82BF25209004D7510 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3713E4A92BF25209004D7510 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3713E4AD2BF2520B004D7510 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +349,6 @@
 				INFOPLIST_FILE = HW14/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +376,6 @@
 				INFOPLIST_FILE = HW14/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

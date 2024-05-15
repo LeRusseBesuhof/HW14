@@ -7,10 +7,10 @@ struct TableItem : Identifiable {
     
     static func getMockStackData() -> [[TableItem]] {
         [
-            [TableItem(image: "bicycle", text: "Lorem ipsum dolor sit amet consectetur.")],
-            [TableItem(image: "polo", text: "Lorem ipsum dolor sit amet consectetur.")],
-            [TableItem(image: "basketball", text: "Lorem ipsum dolor sit amet")],
-            [TableItem(image: "flag", text: "Lorem ipsum dolor sit amet")]
+            [TableItem(image: "bicycle", text: "Мы великие таланты,")],
+            [TableItem(image: "polo", text: "Но понятны и просты.")],
+            [TableItem(image: "basketball", text: "Мы певцы и музыканты,")],
+            [TableItem(image: "flag", text: "Акробаты и шуты.")]
         ]
     }
 }
