@@ -17,11 +17,17 @@ final class AppUIFuncs {
     
     static func createImageView(withSize size: CGRect) -> UIImageView {
         {
-            $0.backgroundColor = .appLightGray
             $0.clipsToBounds = true
-            $0.layer.cornerRadius = 23
-            $0.contentMode = .center
+            $0.contentMode = .scaleAspectFill
             return $0
         }(UIImageView(frame: size))
+    }
+    
+    static func createView(withSize size: CGRect, cornerRadius rad: CGFloat, backgroundColor bgColor: UIColor) -> UIView {
+        {
+            $0.layer.cornerRadius = rad
+            $0.backgroundColor = bgColor
+            return $0
+        }(UIView(frame: size))
     }
 }
